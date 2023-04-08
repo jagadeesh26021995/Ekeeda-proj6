@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Poppins:wght@300;600;900&display=swap');
+html{
+    margin:0px;
+    padding:0px;
+}
+body{
+   
+    background-color: #ffffff;
+background-image: linear-gradient(315deg, #cde5f0 0%, #d7e1ec 74%);
+    
+}
+.sidebar
+{
+    width:250px;
+    height:100%;
+    position: fixed;
+    background-color: rgb(0, 0,0,0.8);
+    font-family: 'Poppins', sans-serif;
+}
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 150px;
+    border: 10px solid green;
+}
+.menu{
+    line-height: 50px;
+    text-align: center;
+    
+}
+.menu a{
+    margin-left: 10px;
+    color:white;
+    text-decoration:none;
+    font-weight: 300;
+    opacity:0.6;
+    
+        
+    }
+    .menu a:link
+    {
+        font-weight: 600;
+        opacity:0.8;
+    }
+    .menu a:hover{
+        opacity:1;
+    }
+    .menu a:active
+    {
+        font-weight: 600;
+        opacity:1;
+       color:red;
+    }
+   .about
+   {
+    margin-left:270px;
+    font-weight: 400;
+    animation-name: test;
+    animation-duration: 2s;
+    height:100vh;
+    
+   }
+   .about p
+   {
+    font-size:20px;
+    line-height: 30px;
+    
+      }
+      @keyframes test
+      {
+        From{
+            opacity:0;
+        }
+        To{
+            opacity:1;
+        }
+      }
+     
